@@ -44,7 +44,7 @@ def main():
    """
     st.markdown(html_temp,unsafe_allow_html=True)
     st.header("Item Purchase Prediction")
-    Gender = st.number_input('Gender',0,1)
+    Gender = st.number_input('Gender(0 for male | 1 for Female)',0,1)
     Age = st.number_input("Insert Age",18,60)
     EstimatedSalary = st.number_input("Insert salary",15000,150000)
     resul=""
